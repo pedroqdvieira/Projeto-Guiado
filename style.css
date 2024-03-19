@@ -6,6 +6,15 @@
     box-sizing: border-box;  
 }
 
+ul {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
 body{
 font-family: "Poppins", sans-serif;
   font-weight: normal;
@@ -19,6 +28,7 @@ font-family: "Poppins", sans-serif;
     display: flex;
     justify-content: space-between;
     background-color: #171717;
+    color:white;
 }
 
 #top_nav > ul, 
