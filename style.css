@@ -9,3 +9,10 @@
     justify-content: space-between;
     background-color: #171717;
 }
+
+#top_nav > ul, 
+#top_nav > div,
+#top_nav > div > ul{
+    display: flex;
+}
+
