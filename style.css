@@ -38,5 +38,6 @@ body{
 #top_nav > div,
 #top_nav > div > ul{
     display: flex;
+    gap: 1.25rem;
 }
 
