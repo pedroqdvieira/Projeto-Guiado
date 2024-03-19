@@ -15,13 +15,13 @@ a{
     color: inherit;
 }
 
-body{
-font-family: "Poppins", sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  line-height: 1.8rem;
-  font-size: 0.9rem;
-  color: #333;
+body{   
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.8rem;
+    font-size: 0.9rem;
+    color: #333;
 }
 
 #top_nav{
@@ -29,6 +29,8 @@ font-family: "Poppins", sans-serif;
     justify-content: space-between;
     background-color: #171717;
     color:white;
+    padding: 0.5rem 0;
+    font-size: 0.8rem;
 }
 
 #top_nav > ul, 
