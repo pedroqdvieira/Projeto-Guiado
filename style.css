@@ -10,6 +10,9 @@ body{
 font-family: "Poppins", sans-serif;
   font-weight: normal;
   font-style: normal;
+  line-height: 28px;
+  font-size: 14px;
+  color: #333;
 }
 
 #top_nav{
