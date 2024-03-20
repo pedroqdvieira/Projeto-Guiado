@@ -53,5 +53,8 @@ body{
 @media (max-width: 800px) {
     #top_nav{
         display: block;
-    }    
+    }
+    #top_nav>*{
+        justify-content: center;
+    }
 }
