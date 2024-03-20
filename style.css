@@ -56,6 +56,13 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 4vh 4vw;
+}
+
+#bottom_nav>div,
+#bottom_nav>div>ul{
+    display: flex;
+    gap: 2vw;
 }
 
 @media (max-width: 800px) {
