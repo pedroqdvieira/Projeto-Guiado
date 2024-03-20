@@ -52,7 +52,7 @@ body {
     gap: 0.625rem;
 }
 
-#bottom_nav{
+#bottom_nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -60,7 +60,7 @@ body {
 }
 
 #bottom_nav>div,
-#bottom_nav>div>ul{
+#bottom_nav>div>ul {
     display: flex;
     gap: 2vw;
 }
@@ -74,4 +74,3 @@ body {
         justify-content: center;
     }
 }
-
