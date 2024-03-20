@@ -13,6 +13,12 @@ ul {
 a{
     text-decoration: none;
     color: inherit;
+    transition: all, 0.5s;
+}
+
+a:hover {
+    color: #ff5951;
+    /*font-size: 2rem; para fazer o link crescer ao passar o mouse em cima*/
 }
 
 body{   
