@@ -35,9 +35,8 @@ body{
     justify-content: space-between;
     background-color: #171717;
     color:white;
-    padding: 0.5rem 3.5rem;
+    padding: 1vh 4vw;
     font-size: 0.8rem;
-
 }
 
 #top_nav > ul, 
@@ -49,4 +48,10 @@ body{
 
 #top_nav > div > ul:nth-child(2){
     gap: 0.625rem;
+}
+
+@media (max-width: 800px) {
+    #top_nav{
+        display: block;
+    }    
 }
