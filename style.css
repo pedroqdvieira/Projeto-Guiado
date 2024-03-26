@@ -86,6 +86,7 @@ body {
 #bars {
     color: red;
     font-size: 1.2rem;
+    display: none;
 }
 
 @media (max-width: 800px) {
@@ -99,5 +100,9 @@ body {
 
     #bottom_nav > div > ul:nth-child(1){
         display: none;
+    }
+
+    #bars{
+        display: block;
     }
 }
