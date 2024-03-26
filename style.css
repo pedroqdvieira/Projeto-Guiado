@@ -81,7 +81,9 @@ body {
 }
 
 #basket > span{
+    height: fit-content;
     position: absolute;
+    left: 0.6vw;
     top: -1vh;
     color:white;
     border-radius: 50%;
