@@ -83,6 +83,11 @@ body {
     background-color: red;
 }
 
+#bars {
+    color: red;
+    font-size: 1.2rem;
+}
+
 @media (max-width: 800px) {
     #top_nav {
         display: block;
