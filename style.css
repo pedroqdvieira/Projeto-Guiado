@@ -74,3 +74,18 @@ body {
         justify-content: center;
     }
 }
+
+#basket{
+    position: relative;
+    display: inline-block;
+}
+
+#basket > span{
+    position: absolute;
+    top: -1vh;
+    color:white;
+    border-radius: 50%;
+    font-size: 0.7em;
+    padding: 0 0.3rem;
+    background-color: red;
+}
