@@ -90,7 +90,6 @@ body {
 }
 
 #main_menu > li:nth-child(1)>ul{
-    background-color: red;
     display: none;
 }
 
