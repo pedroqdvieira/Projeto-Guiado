@@ -81,12 +81,13 @@ body {
 }
 
 #basket > span{
+    line-height: normal;
     height: fit-content;
     position: absolute;
-    left: 0.6vw;
-    top: -1vh;
+    left: 0.5vw;
+    top: -0.5vh;
     color:white;
-    border-radius: 50%;
+    border-radius: 50%; 
     font-size: 0.7em;
     padding: 0 0.3rem;
     background-color: red;
