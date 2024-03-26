@@ -89,6 +89,11 @@ body {
     display: none;
 }
 
+#main_menu > li:nth-child(1)>ul{
+    background-color: red;
+    display: none;
+}
+
 @media (max-width: 800px) {
     #top_nav {
         display: block;
