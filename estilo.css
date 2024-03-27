@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightgray;
+    padding: 10vh 30vw;
+}
+
+section{
+    background-color: white;
+    width: 40vw;
+    border-radius: 5%;
+}
+
+section> div{  
+    position: relative;
+    top: -8vh;
+    background-color: lightgray;
+    width: 150px;
+    height: 150px;
+    margin: 0 calc(50% - 75px); /*lembrar do espaço entre % e - */
+    border-radius: 50%;
+    padding: 10px;
+}
+
+section>div>div{
+    width: 100%;
+    height: 100%;
+    background-image: url(img/profile_pic.jpg);
+    background-size: 220%;
+    background-position: 25% 20%;
+    border-radius: 50%;
+    transition: 1s;
+}
+
+section>div>div:hover{
+    background-size: 280%;
+    background-position: 27% 20%;
+}
+
+section > *{
+    text-align: center;
+    line-height: 1.8rem;
+    letter-spacing: 0.3px;
+}
+
+section > h1{
+    font-size: 2.2rem;
+    color: #666;
+}
+
+section > h2 {
+    color: aquamarine;
+}
+
+section > p{
+    color: #666;
+    letter-spacing: 0.5px;
+    line-height: 1.3rem;
+}
