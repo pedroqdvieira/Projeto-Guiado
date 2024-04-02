@@ -112,6 +112,49 @@ body {
     display: block;
 }
 
+#main_top{
+    display: flex;
+    background-color: red;
+    justify-content: space-between;
+}
+
+#main_top_content{
+    margin: 30vh 0;
+}
+
+#next_button, #prev_button{
+    opacity: 0%;
+    margin: auto 6vw;
+    font-size: 3rem;
+    color: white;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    align-content: center;
+    text-align: center;
+    transition: 1s;
+    cursor: pointer;
+}
+
+#prev_button{
+    background-image: url(img/background-image-1.webp);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+#next_button{
+    background-image: url(img/background-image-3.webp);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+#main_top:hover > #prev_button, 
+#main_top:hover > #next_button{
+    opacity: 100%;
+    margin: auto 2vw;
+} 
+
+
 @media (max-width: 800px) {
     #top_nav {
         display: block;
@@ -129,6 +172,8 @@ body {
         display: block;
     }
 }
+
+
 
 /*selecao mais ctrl shift p, wrap e a funcao
 para criar funcao, usar a engrenagem ao lado do wrap*/
