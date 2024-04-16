@@ -16,14 +16,14 @@ ul {
 }
 
 
-a {
+header a {
     text-decoration: none;
     color: inherit;
     transition: all, 0.5s;
 }
 
 
-a:hover {
+header a:hover {
     color: #ff5951;
     /*font-size: 2rem; para fazer o link crescer ao passar o mouse em cima*/
 }
@@ -119,12 +119,39 @@ body {
 }
 
 #main_top_content{
-    margin: 30vh 0;
+    margin: 20vh 25vw 20vh 0;
+    color: white;
+    font-size: 2rem;
 }
+
+#main_top_content> h1 > span{
+    display: block;
+    font-size: 6rem;
+    margin: 3rem 0 6rem;
+}
+
+#main_top_content > a{
+    background-color: #ff5951;
+    padding: 1rem;
+    display: block;
+    width: max-content;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+#main_top_content > a:hover{
+    background-color: black;
+}
+
 
 #next_button, #prev_button{
     opacity: 0%;
-    margin: auto 6vw;
+    margin: auto 3vw;
     font-size: 3rem;
     color: white;
     width: 6rem;
